@@ -33,7 +33,7 @@ pip install requests
 2. Create the executable:
 
     ```bash
-    pyinstaller --onefile --windowed pyget_win.py
+    pyinstaller --onefile --windowed pyget-win.py
     ```
 
 3. The executable will be located in the `dist` directory.
@@ -44,7 +44,7 @@ pip install requests
 2. Create the executable:
 
     ```bash
-    pyinstaller --onefile pyget_cli.py
+    pyinstaller --onefile pyget-cli.py
     ```
 
 3. The executable will be located in the `dist` directory.
@@ -56,7 +56,7 @@ pip install requests
 1. Run the executable or the script directly using Python:
 
     ```bash
-    python pyget_win.py
+    python pyget-win.py
     ```
 
 2. Enter the URL of the file you want to download.
@@ -69,7 +69,7 @@ pip install requests
 1. Run the executable or the script directly using Python:
 
     ```bash
-    python pyget_cli.py <url> <filename> [--splits <num_splits>] [--chunk_size <chunk_size_kb>]
+    python pyget-cli.py <url> <filename> [--splits <num_splits>] [--chunk_size <chunk_size_kb>]
     ```
 
     - `<url>`: URL of the file to download.
@@ -80,7 +80,7 @@ pip install requests
 2. Example:
 
     ```bash
-    python pyget_cli.py https://example.com/file.zip file.zip --splits 8 --chunk_size 1024
+    python pyget-cli.py https://example.com/file.zip file.zip --splits 8 --chunk_size 1024
     ```
 
 ## Examples
@@ -92,7 +92,7 @@ pip install requests
 ### CLI Version
 
 ```bash
-$ pyget_cli.exe https://example.com/file.zip file.zip
+$ pyget-cli.exe https://example.com/file.zip file.zip
 Total size: 150.00 MB
 Using 8 splits and 4.00 MB chunk size
 Downloading part 1/8: 12.50%
@@ -126,10 +126,10 @@ pyget/
 ├── assets/
 │   └── gui_example.png  # Add screenshots here
 ├── dist/
-│   └── pyget_cli.exe
-│   └── pyget_win.exe
-├── pyget_cli.py
-├── pyget_win.py
+│   └── pyget-cli.exe
+│   └── pyget-win.exe
+├── pyget-cli.py
+├── pyget-win.py
 ├── LICENSE
 └── README.md
 ```
