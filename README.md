@@ -29,7 +29,7 @@ pip install requests
 
 #### GUI Version
 
-1. Save the GUI script as `pyget_win.py`.
+1. Save the GUI script as `pyget-win.py`.
 2. Create the executable:
 
     ```bash
@@ -40,7 +40,7 @@ pip install requests
 
 #### CLI Version
 
-1. Save the CLI script as `pyget_cli.py`.
+1. Save the CLI script as `pyget-cli.py`.
 2. Create the executable:
 
     ```bash
