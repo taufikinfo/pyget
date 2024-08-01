@@ -1,3 +1,30 @@
+"""
+PyGet - A Parallel File Downloader (GUI Version)
+Author: TaufikInfo
+License: MIT
+
+This script provides a graphical user interface for downloading files in parallel.
+It supports resumable downloads, dynamic adjustment of splits and chunk sizes, 
+and displays progress for each part of the download.
+
+Dependencies:
+- requests
+- tkinter
+- threading
+- concurrent.futures
+- json
+- time
+- os
+- urllib.parse
+
+Usage:
+1. Run the script: python pyget_win.py
+2. Enter the URL of the file to download.
+3. Specify the location to save the file.
+4. Optionally, adjust the number of splits and chunk size.
+5. Click "Download" to start the download process.
+"""
+
 import os
 import requests
 import tkinter as tk
