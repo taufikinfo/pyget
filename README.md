@@ -1,6 +1,3 @@
-Here's the updated `README.md` to include the features for downloading both YouTube and non-YouTube files:
-
-```markdown
 # PyGet - A Parallel File Downloader
 
 PyGet is a parallel file downloader with both GUI and CLI versions. It allows you to download files by splitting them into multiple parts, improving download speed and reliability. PyGet supports downloading files from both YouTube and non-YouTube sources.
