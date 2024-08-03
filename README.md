@@ -1,3 +1,4 @@
+
 # PyGet - A Parallel File Downloader
 
 PyGet is a parallel file downloader with both GUI and CLI versions. It allows you to download files by splitting them into multiple parts, improving download speed and reliability. PyGet supports downloading files from both YouTube and non-YouTube sources.
@@ -91,7 +92,7 @@ pip install requests yt-dlp
 
 ### GUI Version
 
-![GUI Example](./assets/gui_example.png)
+![PyGet v1.2.0 Example](./assets/PyGet.v1.2.0-04.08.2024_00.31.28_REC.gif)
 
 ### CLI Version
 
@@ -115,31 +116,4 @@ Contributions are welcome! Please fork the repository and submit pull requests.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### Additional Notes
-
-1. **Screenshots**: If you have screenshots of the GUI version, you can include them in the `assets` directory and reference them in the README.
-2. **LICENSE**: Add a `LICENSE` file if you haven't already.
-3. **Customization**: Adjust the text to better match your project details, such as specific features or usage instructions.
-
-### GitHub Repository Structure
-
-Here’s a suggested structure for your GitHub repository:
-
-```
-pyget/
-├── assets/
-│   └── gui_example.png  # Add screenshots here
-├── dist/
-│   └── pyget-cli.exe
-│   └── pyget-win.exe
-├── pyget-cli.py
-├── pyget-win.py
-├── LICENSE
-└── README.md
-```
-
-### Instructions for the Users
-
-Users can follow the instructions in the README to set up, run, and contribute to the project. The provided examples and usage instructions will help them understand how to use both the GUI and CLI versions of PyGet.
-
-By providing a comprehensive README, you make it easier for others to use and contribute to your project, enhancing its utility and reach.
+This Markdown snippet will display your GIF within the `README.md` file on GitHub, assuming the GIF file is located in the `assets` directory and named `PyGet.v1.2.0-04.08.2024_00.31.28_REC.gif`.
