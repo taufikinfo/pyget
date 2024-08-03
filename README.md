@@ -1,6 +1,9 @@
+Here's the updated `README.md` to include the features for downloading both YouTube and non-YouTube files:
+
+```markdown
 # PyGet - A Parallel File Downloader
 
-PyGet is a parallel file downloader with both GUI and CLI versions. It allows you to download files by splitting them into multiple parts, improving download speed and reliability.
+PyGet is a parallel file downloader with both GUI and CLI versions. It allows you to download files by splitting them into multiple parts, improving download speed and reliability. PyGet supports downloading files from both YouTube and non-YouTube sources.
 
 ## Features
 
@@ -9,6 +12,7 @@ PyGet is a parallel file downloader with both GUI and CLI versions. It allows yo
 - CLI version for command-line enthusiasts.
 - Resumable downloads.
 - Dynamic default values for splits and chunk size based on the file size.
+- Supports downloading from YouTube and non-YouTube sources.
 
 ## Installation
 
@@ -17,12 +21,13 @@ PyGet is a parallel file downloader with both GUI and CLI versions. It allows yo
 - Python 3.6+
 - `requests` library
 - `tkinter` (for GUI version)
+- `yt-dlp` (for YouTube downloads)
 - `PyInstaller` (for creating executables)
 
 You can install the necessary dependencies using pip:
 
 ```bash
-pip install requests
+pip install requests yt-dlp
 ```
 
 ### Creating Executables
@@ -59,9 +64,11 @@ pip install requests
     python pyget-win.py
     ```
 
-2. Enter the URL of the file you want to download.
-3. Specify the location to save the file.
-4. Optionally, adjust the number of splits and chunk size.
+2. Choose the downloader mode (Single or Multiple).
+3. Enter the URL(s) of the file(s) you want to download.
+4. For Single Downloader mode:
+    - Specify the location to save the file.
+    - Optionally, adjust the number of splits and chunk size.
 5. Click "Download" to start the download process.
 
 ### CLI Version
